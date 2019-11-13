@@ -1,0 +1,30 @@
+.calculator-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 150px 0;
+}
+
+.calculator {
+  width: 400px;
+  text-align: center;
+}
+
+.calculator-button {
+  user-select: none;
+  font-size: 2rem;
+  line-height: 4rem;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.display {
+  padding: 20px 25px;
+}
+
+.input {
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: end;
+  min-height: 4rem;
+}
